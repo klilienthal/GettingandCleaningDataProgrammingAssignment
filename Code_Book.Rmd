@@ -1,0 +1,19 @@
+---
+title: "Code Book"
+author: "Kaitlin"
+date: "8/16/2020"
+output: html_document
+---
+# Code Book for summarizeddata.txt
+
+# About the variables
+
+## Column 1: Activity
+Describes what activity the subject was doing. This could be laying down, sitting, standing, walking, walking up stairs, or walking down stairs.
+
+## Column 2: Subject ID
+This is a number ranging from 1 through 30 identifying the subject being observed.
+
+## Columns 3:88: Means
+The remaining columns in the data frame are the means on each variable for each subject on each activity. For example "tBodyAccmeanX" represents the mean body acceleration on the x-axis. The first observation of this variable is the mean body acceleration on the x-axis for subject 1 in a laying down position.
+
